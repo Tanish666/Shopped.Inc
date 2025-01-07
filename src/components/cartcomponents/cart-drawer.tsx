@@ -2,7 +2,7 @@
 import { useEffect } from 'react'
 import { useState } from 'react'
 import { ShoppingBag,X } from 'lucide-react'
-import { ShoppingCart, Plus, Minus, Trash2 } from 'lucide-react'
+import {  Plus, Minus,} from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import {
@@ -29,7 +29,7 @@ interface CartItem {
 export function CartDrawer() {
   // Dummy cart items
   const router = useRouter();
-  let ProductData = useAppSelector(state => state.cart);
+  const ProductData = useAppSelector(state => state.cart);
   
   const dispatch = useAppDispatch();
   const [cartItems, setCartItems] = useState<CartItem[]>([

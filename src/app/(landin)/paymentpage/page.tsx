@@ -2,10 +2,6 @@
 import PaymentForm from "@/components/paymentComponents/payment-form"
 import { useAppSelector } from "@/lib/store/hooks";
 
-interface Product {
-    price:number;
-    productName:string;
-}
 
 
 export default function PaymentPage() {

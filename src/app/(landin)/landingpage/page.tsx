@@ -1,6 +1,6 @@
 'use client'
 
-import { MovingCards } from "@/components/herosection/MovingCards";
+
 import { ProductCard } from "@/components/herosection/productRemaster";
 import { InView } from "@/components/ui/in-view";
 import BlurFade from "@/components/ui/blur-fade";
@@ -19,19 +19,6 @@ import { Pagination,
 import { useSession } from "next-auth/react";
 import DelayedLoginAlert from "@/components/login-components/loginAlert";
 import Pricing from "@/components/ui/pricing";
-import { useAppSelector } from "@/lib/store/hooks";
-import SearchedProduct from "@/components/herosection/SearchedProduct";
-type Product = {
-  id: number;
-  name: string;
-  price: number;
-  image: string;
-  image2: string;
-  image3: string;
-  image4: string;
-  category: string;
-  quantity: number;
-};
 
 
 

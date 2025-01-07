@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button"
 import {
   Card,
   CardContent,
-  CardDescription,
+  
   CardFooter,
   CardHeader,
-  CardTitle,
+  
 } from "@/components/ui/card"
 import CartBtn from "./(cart-components)/cartadd-btn"
 import { ProductDrawer } from "../productcomponent/product-drawer"
@@ -17,7 +17,7 @@ import { ProductDrawer } from "../productcomponent/product-drawer"
 export default function Product() {
 
    const product = {
-    id:Math.floor(100 + Math.random() * 900),
+    id:Math.floor(100 + Math.random() * 900) ,
     name:'reebok shoes',
     price:500,
     image:'https://m.media-amazon.com/images/I/51Inwb0gwLL._SY675_.jpg',

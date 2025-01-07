@@ -3,11 +3,11 @@ import { useState, useEffect } from 'react';
 import { TextEffect } from '@/components/ui/text-effect';
 
 export function HeroText() {
-  const [trigger, setTrigger] = useState(true);
+  
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setTrigger((prev) => !prev);
+      
     }, 2000);
 
     return () => clearInterval(interval);
@@ -55,9 +55,9 @@ export function HeroText() {
       variants={blurSlideVariants}
       
     >
-      "Step into style and conquer every stride 
+      &quot;Step into style and conquer every stride 
       — discover shoes that define your fashion, 
-                   only here!"
+                   only here!&ldquo;
     </TextEffect>
     
 

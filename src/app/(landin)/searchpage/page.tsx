@@ -1,5 +1,5 @@
 "use client"
-import { useAppSelector, useAppStore } from '@/lib/store/hooks'
+import { useAppSelector} from '@/lib/store/hooks'
 import React from 'react'
 import { useState,useEffect } from 'react';
 import BlurFade from '@/components/ui/blur-fade';
@@ -16,7 +16,7 @@ type Product = {
     quantity: number;
   };
 
-function page() {
+function Page() {
     const sampleProducts = [
 
         {
@@ -161,7 +161,7 @@ function page() {
     if(searchProt.length > 0){
         return(
             <>
-             <h1>Searched for "{searchProduct}"</h1>
+             <h1>Searched for &quot;{searchProduct}!&quot;</h1>
                    <BlurFade delay={0.25} inView>
                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 md:grid-cols-2 gap-6 ">
                    {searchProt.map(product => (
@@ -175,10 +175,10 @@ function page() {
         )
     }else{
         return(
-            <h1>no results found for "{searchProduct}"</h1>
+            <h1>no results found for &quot;{searchProduct}!&quot;</h1>
         )
     }       
   
 }
 
-export default page
+export default Page

@@ -1,8 +1,8 @@
 'use client'
-import Link from 'next/link'
+
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ShoppingCart, CreditCard } from 'lucide-react'
+import {  CreditCard } from 'lucide-react'
 import CartBtn from './(cart-components)/cartadd-btn'
 import { ProductDrawer } from '../productcomponent/product-drawer'
 import { useRouter } from 'next/navigation'
@@ -27,7 +27,7 @@ export function ProductCard({prop}:{prop:ProductCardProps}) {
     dispatch(replace({price:prop.price,productName:prop.name}))
     router.push('/paymentpage');
   }
-  const { id, name, price, image, category, quantity } = prop;
+  const {  name, price,} = prop;
   return (
     <Card className="w-full max-w-sm overflow-hidden group">
       <CardContent className="p-0">

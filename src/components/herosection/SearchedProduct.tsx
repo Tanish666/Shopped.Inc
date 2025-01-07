@@ -1,5 +1,4 @@
 import React from 'react'
-import Product from './product'
 import { ProductCard } from './productRemaster'
 import { useAppSelector } from '@/lib/store/hooks'
 
@@ -21,7 +20,7 @@ function SearchedProduct({prop}:{prop:product}) {
    
   return (
     <>
-    <h1>Results for "{SearchProduct}"</h1>
+    <h1>Results for &quot;{SearchProduct}&ldquo;</h1>
     <ProductCard prop={prop}/>
     </>
    )

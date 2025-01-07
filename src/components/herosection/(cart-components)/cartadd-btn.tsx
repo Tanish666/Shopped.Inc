@@ -9,10 +9,10 @@ import {
   Drawer,
   DrawerClose,
   DrawerContent,
-  DrawerDescription,
+  
   DrawerFooter,
   DrawerHeader,
-  DrawerTitle,
+  
   DrawerTrigger,
 } from "@/components/ui/drawer"
 import { Add } from "@/lib/store/slices/CartSlices"
@@ -31,47 +31,7 @@ interface Product {
 }
 
 
-const data = [
-  {
-    goal: 1,
-  },
-  {
-    goal: 2,
-  },
-  {
-    goal: 3,
-  },
-  {
-    goal: 4,
-  },
-  {
-    goal: 5,
-  },
-  {
-    goal: 6,
-  },
-  {
-    goal: 7,
-  },
-  {
-    goal: 8,
-  },
-  {
-    goal: 9,
-  },
-  {
-    goal: 10,
-  },
-  {
-    goal: 11,
-  },
-  {
-    goal: 12,
-  },
-  {
-    goal: 13,
-  },
-]
+
 
 export default function CartBtn({ prop }: { prop: Product }) {
   
