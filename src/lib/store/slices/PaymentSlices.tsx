@@ -1,4 +1,4 @@
-import Product from "@/components/herosection/product";
+
 import { createSlice } from "@reduxjs/toolkit";
 
 interface product{
