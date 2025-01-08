@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
-import { Star, ShoppingCart, Heart ,ChevronLeft, ChevronRight} from 'lucide-react'
+
+import { Star, Heart ,ChevronLeft, ChevronRight} from 'lucide-react'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -33,7 +33,7 @@ export function ProductDrawer({prop}:{prop:Product}) {
     prop.image4,
   ]
 
-let productData = prop;
+const productData = prop;
 
 const handlePrevImage = () => {
   setCurrentImageIndex((prevIndex) => 

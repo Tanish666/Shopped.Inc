@@ -153,7 +153,7 @@ export default function Home() {
     },
   ]
      
-  const { data: session, status } = useSession();
+  const { data: session,} = useSession();
   
   useEffect(()=>{
     const timer= setTimeout(()=>{

@@ -1,6 +1,5 @@
 import Link from "next/link"
 
-import { Button } from "@/components/ui/button"
 import {
   Card,
   CardContent,
@@ -8,9 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { signIn } from "next-auth/react"
+
 import Googlelogin from "./loginbtns/googlelogin"
 import Facebooklogin from "./loginbtns/facebooklogin"
 import Githublogin from "./loginbtns/githublogin"

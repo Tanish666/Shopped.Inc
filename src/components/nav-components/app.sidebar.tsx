@@ -2,13 +2,11 @@
 
 import * as React from "react"
 import {
-  BookOpen,
-  Bot,
-  Command,
+
   Frame,
   LifeBuoy,
   Map,
-  PieChart,
+
   Send,
   Settings2,
   SquareTerminal,
@@ -24,7 +22,7 @@ import {
   SidebarFooter,
   SidebarHeader,
   SidebarMenu,
-  SidebarMenuButton,
+  
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
 import AuthProvider from "@/app/context/AuthProvider"

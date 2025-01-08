@@ -36,7 +36,7 @@ export default function DelayedLoginAlert() {
         <AlertDialogHeader>
           <AlertDialogTitle>Wanna Login SneakerHead?</AlertDialogTitle>
           <AlertDialogDescription>
-            You can log in to access for ordering, but it's not required to continue browsing 😉.
+            You can log in to access for ordering, but it&#39;s not required to continue browsing 😉.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter className="sm:justify-between">

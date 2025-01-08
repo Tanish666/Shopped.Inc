@@ -6,7 +6,7 @@ import {
   Bell,
   ChevronsUpDown,
   CreditCard,
-  LogOut,
+ 
   Sparkles,
 } from "lucide-react"
 
@@ -33,7 +33,7 @@ import {
 import Logalert from "./logalert"
 import { Button } from "../ui/button";
 
-import AuthProvider from "@/app/context/AuthProvider";
+
 import { useRouter } from "next/navigation"
 import { useAppDispatch } from "@/lib/store/hooks"
 import { toggle } from "@/lib/store/slices/PlanSlices"
@@ -62,7 +62,7 @@ export function NavUser({
   }
   
   const dispatch = useAppDispatch();
-  const { data: session, status } = useSession();
+  const { data: session} = useSession();
   const { isMobile } = useSidebar();
   const userName:string = getName(session?.user?.name as string);
  

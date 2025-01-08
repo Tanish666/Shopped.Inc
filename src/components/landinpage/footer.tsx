@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
             <p className="text-sm text-gray-400">
-              We're passionate about providing high-quality, stylish shoes for every occasion.
+            We&#39;re passionate about providing high-quality, stylish shoes for every occasion.
             </p>
           </div>
           <div>

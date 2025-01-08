@@ -40,7 +40,7 @@ export function ImagesSliderDemo() {
       </BlurFade>
       <BlurFade delay={0.50*2} inView>
         <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
-        "Step into style and conquer every stride <br /> — discover shoes that define your fashion, only here!"
+        &quot;Step into style and conquer every stride <br /> — discover shoes that define your fashion, only here!&rdquo;
         </motion.p>
         </BlurFade>
         <HoverBorderGradient
