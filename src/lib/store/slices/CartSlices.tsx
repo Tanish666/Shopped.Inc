@@ -1,4 +1,4 @@
-import Product from "@/components/herosection/product";
+
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { Underline } from "lucide-react";
 
