@@ -1,8 +1,5 @@
-
-
 import Footer from '@/components/landinpage/footer'
 import { AppleCardsCarouselDemo } from '@/components/landinpage/showcase'
-
 import { Pointer } from '@/components/ui/cursor'
 import { Grid } from '@/components/landinpage/backgroundLines'
 
